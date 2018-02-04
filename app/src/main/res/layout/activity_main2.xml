@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.android.jaysyurahman_1202154199_si3907.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="13dp"
+        android:padding="27dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/Judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Makan Malam"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tempatMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="tempatMakan"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="25dp"
+        android:paddingTop="0dp"
+        android:textAlignment="center">
+
+        <!--MENU-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Menu"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/namaMakanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="namaMakanan"
+            android:textAlignment="center"
+            android:textSize="27dp" />
+        <!--PORSI-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:text="Porsi"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/jumlahPorsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="jumlahPorsi"
+            android:textAlignment="center"
+            android:textSize="27dp" />
+        <!--HARGA-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:text="Harga"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="harga"
+            android:textAlignment="center"
+            android:textSize="27dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
